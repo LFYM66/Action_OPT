@@ -3,12 +3,12 @@ name: OP_Build
 on:
   workflow_dispatch:
     inputs:
-      ROM_URL:
-        description: 'ROM_URL'
+      ROM_URL: 
+        description: https://netix.dl.sourceforge.net/project/superiorextended/marble/gapps/SuperiorExtended-OFFICIAL-14-marble-GAPPS-20240310-1500.zip
         required: true
         default: '在这写直链哦亲亲'
-      REPACK_NAME:
-        description: 'REPACK_NAME'
+      REPACK_NAME: Generic
+        description: Generic
         required: true
         default: '这里写名字哦.7z'
         
